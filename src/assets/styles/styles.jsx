@@ -8,7 +8,7 @@ export const Container = styled.div`
 
 export const Grid = styled.div`
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
 	gap: 1rem;
 `;
 

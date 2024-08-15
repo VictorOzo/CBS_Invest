@@ -1,8 +1,8 @@
 import ProductSlider from './ProductSlider';
 import ProductCard from './ProductCard';
-import { Container, Grid, Title } from './styles';
+import { Container, Grid, Title } from '../assets/styles/styles';
 
-const ProductPage = () => {
+const ProductList = () => {
 	return (
 		<Container>
 			<Title>Dynamic Product Page</Title>
@@ -14,4 +14,4 @@ const ProductPage = () => {
 	);
 };
 
-export default ProductPage;
+export default ProductList;
